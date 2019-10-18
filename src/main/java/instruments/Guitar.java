@@ -12,4 +12,8 @@ public class Guitar extends Instrument {
         return this.numberOfStrings;
     }
 
+    public String plays() {
+        return "Twaaaaang";
+    }
+
 }

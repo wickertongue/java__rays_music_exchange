@@ -12,4 +12,8 @@ public class Saxophone extends Instrument {
         return this.numberOfKeys;
     }
 
+    public String plays() {
+        return "Buhoomu-hoooooooom";
+    }
+
 }

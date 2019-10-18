@@ -33,5 +33,10 @@ public class PianoTest {
         assertEquals(88, piano.getNumberOfKeys());
     }
 
+    @Test
+    public void canGetSound() {
+        assertEquals("Plink plonk", piano.plays());
+    }
+
 
 }

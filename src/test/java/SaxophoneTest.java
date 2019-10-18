@@ -33,4 +33,9 @@ public class SaxophoneTest {
         assertEquals(9, sax.getNumberOfKeys());
     }
 
+    @Test
+    public void canGetSound() {
+        assertEquals("Buhoomu-hoooooooom", sax.plays());
+    }
+
 }
