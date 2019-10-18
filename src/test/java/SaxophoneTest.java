@@ -1,32 +1,31 @@
-import instruments.Guitar;
+import instruments.Saxophone;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class GuitarTest {
+public class SaxophoneTest {
 
-    Guitar guitar;
+    Saxophone sax;
 
     @Before
     public void before() {
-        guitar = new Guitar("Wood", "Olive Green", "String");
+        sax = new Saxophone("Brass", "Gold", "Brass");
     }
 
     @Test
     public void canGetMaterial() {
-        assertEquals("Wood", guitar.getMaterial());
+        assertEquals("Brass", sax.getMaterial());
     }
 
     @Test
     public void canGetColour() {
-        assertEquals("Olive Green", guitar.getColour());
+        assertEquals("Gold", sax.getColour());
     }
 
     @Test
     public void canGetType() {
-        assertEquals("String", guitar.getType());
+        assertEquals("Brass", sax.getType());
     }
-
 
 }

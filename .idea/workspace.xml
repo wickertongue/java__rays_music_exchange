@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b76b67d9-c469-49ac-bdfd-e7126737b8e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Guitar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b76b67d9-c469-49ac-bdfd-e7126737b8e5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in rays_music_exchange">
+    <configuration name="All in rays_music_exchange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rays_music_exchange" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GuitarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rays_music_exchange" />
       <option name="PACKAGE_NAME" value="" />
@@ -60,6 +64,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in rays_music_exchange" />
         <item itemvalue="JUnit.GuitarTest" />
       </list>
     </recent_temporary>

@@ -1,3 +1,5 @@
+package instruments;
+
 public class Guitar extends Instrument {
 
     public Guitar(String material, String colour, String type) {
