@@ -9,6 +9,15 @@ public abstract class Instrument {
         this.type = type;
     }
 
+    public String getMaterial() {
+        return material;
+    }
 
+    public String getColour() {
+        return colour;
+    }
 
+    public String getType() {
+        return type;
+    }
 }
