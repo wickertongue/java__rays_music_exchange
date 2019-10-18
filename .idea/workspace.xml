@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b76b67d9-c469-49ac-bdfd-e7126737b8e5" name="Default Changelist" comment="" />
+    <list default="true" id="b76b67d9-c469-49ac-bdfd-e7126737b8e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/Piano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PianoTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
