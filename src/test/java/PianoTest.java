@@ -10,7 +10,7 @@ public class PianoTest {
 
     @Before
     public void before() {
-        piano = new Piano("Mahogany", "White", "Keyboard");
+        piano = new Piano("Mahogany", "White", "Keyboard", 88);
     }
 
     @Test
@@ -26,6 +26,11 @@ public class PianoTest {
     @Test
     public void canGetType() {
         assertEquals("Keyboard", piano.getType());
+    }
+
+    @Test
+    public void canGetNumberOfKeys() {
+        assertEquals(88, piano.getNumberOfKeys());
     }
 
 

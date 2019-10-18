@@ -10,7 +10,7 @@ public class SaxophoneTest {
 
     @Before
     public void before() {
-        sax = new Saxophone("Brass", "Gold", "Brass");
+        sax = new Saxophone("Brass", "Gold", "Woodwind", 9);
     }
 
     @Test
@@ -25,7 +25,12 @@ public class SaxophoneTest {
 
     @Test
     public void canGetType() {
-        assertEquals("Brass", sax.getType());
+        assertEquals("Woodwind", sax.getType());
+    }
+
+    @Test
+    public void canGetNumberOfKeys() {
+        assertEquals(9, sax.getNumberOfKeys());
     }
 
 }
