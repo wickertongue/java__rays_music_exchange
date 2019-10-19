@@ -1,6 +1,8 @@
 package items;
 
-public abstract class Item {
+import behaviours.ISell;
+
+public abstract class Item implements ISell {
     private double purchasePrice;
     private double salePrice;
 
