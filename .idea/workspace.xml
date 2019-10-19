@@ -47,30 +47,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShopTest.canSelectItemFromStock">
-    <configuration name="All in rays_music_exchange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rays_music_exchange" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShopTest.canAddToStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rays_music_exchange" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShopTest" />
-      <option name="METHOD_NAME" value="canAddToStock" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ShopTest.canGetTotalProfitWithMoreStock">
     <configuration name="ShopTest.canGetStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rays_music_exchange" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ShopTest" />
       <option name="METHOD_NAME" value="canGetStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopTest.canGetTotalProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rays_music_exchange" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="canGetTotalProfit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopTest.canGetTotalProfitWithMoreStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rays_music_exchange" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="canGetTotalProfitWithMoreStock" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShopTest.canGetTotalProfitWithMoreStock" />
+        <item itemvalue="JUnit.ShopTest.canGetTotalProfit" />
         <item itemvalue="JUnit.ShopTest.canSelectItemFromStock" />
         <item itemvalue="JUnit.ShopTest.canRemoveFromStock" />
         <item itemvalue="JUnit.ShopTest.canGetStock" />
-        <item itemvalue="JUnit.ShopTest.canAddToStock" />
-        <item itemvalue="JUnit.All in rays_music_exchange" />
       </list>
     </recent_temporary>
   </component>

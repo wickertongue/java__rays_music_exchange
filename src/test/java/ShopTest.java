@@ -50,10 +50,20 @@ public class ShopTest {
 
     @Test
     public void canGetTotalProfit() {
-        shop.addToStock(guitar); //
+        shop.addToStock(guitar);
         shop.addToStock(book);
         shop.addToStock(setOfPicks);
-        assertEquals(32.51, shop.totalProfit());
+        assertEquals(32.51, shop.totalProfit(), 1);
+    }
+
+    @Test
+    public void canGetTotalProfitWithMoreStock() {
+        shop.addToStock(guitar);
+        shop.addToStock(book);
+        shop.addToStock(book);
+        shop.addToStock(book);
+        shop.addToStock(setOfPicks);
+        assertEquals(35.51, shop.totalProfit(), 1);
     }
 
 }
