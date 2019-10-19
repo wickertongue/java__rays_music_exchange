@@ -11,32 +11,32 @@ public class SetOfPicksTest {
 
     @Before
     public void before() {
-        setOfPicks = new SetOfPicks("A-Z of Basic Chords", "Gary Shredder", "Guitar", 4.49, 6.00);
+        setOfPicks = new SetOfPicks("Fender", 0.81, 6, 2.00, 3.00);
     }
 
     @Test
-    public void canGetTitle() {
-        assertEquals("A-Z of Basic Chords", setOfPicks.getTitle());
+    public void canGetBrand() {
+        assertEquals("Fender", setOfPicks.getBrand());
     }
 
     @Test
-    public void canGetAuthor() {
-        assertEquals("Gary Shredder", setOfPicks.getAuthor());
+    public void canGetThickness() {
+        assertEquals(0.81, setOfPicks.getThickness(),1);
     }
 
     @Test
-    public void canGetInstrumentCovered() {
-        assertEquals("Guitar", setOfPicks.getInstrumentCovered());
+    public void canGetNumberOfPicksInSet() {
+        assertEquals(6, setOfPicks.getNumber());
     }
 
     @Test
     public void canGetPurchasePrice() {
-        assertEquals(4.49, setOfPicks.getPurchasePrice(),1);
+        assertEquals(2.00, setOfPicks.getPurchasePrice(),1);
     }
 
     @Test
     public void canGetSalePrice() {
-        assertEquals(6.00, setOfPicks.getSalePrice(),1);
+        assertEquals(3.00, setOfPicks.getSalePrice(),1);
     }
 
 }
