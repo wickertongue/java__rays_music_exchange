@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b76b67d9-c469-49ac-bdfd-e7126737b8e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/TypeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Piano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Piano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Saxophone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Saxophone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PianoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PianoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SaxophoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SaxophoneTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +23,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -47,13 +56,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShopTest.canGetTotalProfitWithMoreStock">
-    <configuration name="ShopTest.canGetStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in rays_music_exchange">
+    <configuration name="All in rays_music_exchange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rays_music_exchange" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShopTest" />
-      <option name="METHOD_NAME" value="canGetStock" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in rays_music_exchange" />
         <item itemvalue="JUnit.ShopTest.canGetTotalProfitWithMoreStock" />
         <item itemvalue="JUnit.ShopTest.canGetTotalProfit" />
         <item itemvalue="JUnit.ShopTest.canSelectItemFromStock" />
         <item itemvalue="JUnit.ShopTest.canRemoveFromStock" />
-        <item itemvalue="JUnit.ShopTest.canGetStock" />
       </list>
     </recent_temporary>
   </component>

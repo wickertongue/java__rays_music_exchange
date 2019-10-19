@@ -1,4 +1,5 @@
 import instruments.Guitar;
+import instruments.TypeType;
 import items.Book;
 import items.SetOfPicks;
 import org.junit.Before;
@@ -17,7 +18,7 @@ public class ShopTest {
     public void before() {
         shop = new Shop("Rays Music Exchange");
         book = new Book("A-Z of Basic Chords", "Gary Shredder", "Guitar", 4.49, 6.00);
-        guitar = new Guitar("Wood", "Olive Green", "String", 6, 125.00, 155.00);
+        guitar = new Guitar("Wood", "Olive Green", TypeType.STRING, 6, 125.00, 155.00);
         setOfPicks = new SetOfPicks("Fender", 0.81, 6, 2.00, 3.00);
     }
 

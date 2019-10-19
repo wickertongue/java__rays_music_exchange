@@ -1,4 +1,5 @@
 import instruments.Saxophone;
+import instruments.TypeType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -10,7 +11,7 @@ public class SaxophoneTest {
 
     @Before
     public void before() {
-        sax = new Saxophone("Brass", "Gold", "Woodwind", 9);
+        sax = new Saxophone("Brass", "Gold", TypeType.WOODWIND, 9);
     }
 
     @Test
@@ -25,7 +26,7 @@ public class SaxophoneTest {
 
     @Test
     public void canGetType() {
-        assertEquals("Woodwind", sax.getType());
+        assertEquals(TypeType.WOODWIND, sax.getType());
     }
 
     @Test

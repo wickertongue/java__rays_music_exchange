@@ -3,7 +3,7 @@ package instruments;
 public class Saxophone extends Instrument {
     private int numberOfKeys;
 
-    public Saxophone(String material, String colour, String type, int numberOfKeys) {
+    public Saxophone(String material, String colour, TypeType type, int numberOfKeys) {
         super(material, colour, type);
         this.numberOfKeys = numberOfKeys;
     }

@@ -1,4 +1,5 @@
 import instruments.Piano;
+import instruments.TypeType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -10,7 +11,7 @@ public class PianoTest {
 
     @Before
     public void before() {
-        piano = new Piano("Mahogany", "White", "Keyboard", 88);
+        piano = new Piano("Mahogany", "White", TypeType.KEYBOARD, 88);
     }
 
     @Test
@@ -25,7 +26,7 @@ public class PianoTest {
 
     @Test
     public void canGetType() {
-        assertEquals("Keyboard", piano.getType());
+        assertEquals(TypeType.KEYBOARD, piano.getType());
     }
 
     @Test

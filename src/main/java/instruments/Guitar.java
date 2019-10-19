@@ -7,7 +7,7 @@ public class Guitar extends Instrument implements ISell {
     private double purchasePrice;
     private double salePrice;
 
-    public Guitar(String material, String colour, String type, int numberOfStrings, double purchasePrice,
+    public Guitar(String material, String colour, TypeType type, int numberOfStrings, double purchasePrice,
                   double salePrice) {
         super(material, colour, type);
         this.numberOfStrings = numberOfStrings;

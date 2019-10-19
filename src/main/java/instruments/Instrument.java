@@ -5,9 +5,9 @@ import behaviours.IPlay;
 public abstract class Instrument implements IPlay {
     private String material;
     private String colour;
-    private String type;
+    private TypeType type;
 
-    public Instrument(String material, String colour, String type) {
+    public Instrument(String material, String colour, TypeType type) {
         this.material = material;
         this.colour = colour;
         this.type = type;
@@ -21,7 +21,7 @@ public abstract class Instrument implements IPlay {
         return colour;
     }
 
-    public String getType() {
+    public TypeType getType() {
         return type;
     }
 }
