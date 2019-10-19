@@ -12,4 +12,7 @@ public class SetOfPicks extends Item{
         this.number = number;
     }
 
+    
+
+
 }
