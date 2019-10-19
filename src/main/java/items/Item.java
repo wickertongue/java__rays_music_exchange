@@ -17,4 +17,8 @@ public abstract class Item {
         return this.salePrice;
     }
 
+    public double calculateMarkup() {
+        return this.getSalePrice() - this.getPurchasePrice();
+    }
+
 }

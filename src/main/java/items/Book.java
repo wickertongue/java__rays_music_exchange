@@ -1,6 +1,6 @@
 package items;
 
-public class Book extends Item{
+public class Book extends Item {
     private String title;
     private String author;
     private String instrumentCovered;
@@ -23,4 +23,5 @@ public class Book extends Item{
     public String getInstrumentCovered() {
         return instrumentCovered;
     }
+
 }

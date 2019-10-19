@@ -37,4 +37,9 @@ public class BookTest {
         assertEquals(6.00, book.getSalePrice(),1);
     }
 
+    @Test
+    public void canCalculateMarkup() {
+        assertEquals(1.51, book.calculateMarkup(), 1);
+    }
+
 }
