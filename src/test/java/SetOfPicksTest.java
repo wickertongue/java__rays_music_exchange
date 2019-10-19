@@ -39,4 +39,9 @@ public class SetOfPicksTest {
         assertEquals(3.00, setOfPicks.getSalePrice(),1);
     }
 
+    @Test
+    public void canCalculateMarkup() {
+        assertEquals(1.00, setOfPicks.calculateMarkup(), 1);
+    }
+
 }

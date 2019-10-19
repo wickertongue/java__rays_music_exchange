@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b76b67d9-c469-49ac-bdfd-e7126737b8e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/items/SetOfPicks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/SetOfPicks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SetOfPicksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SetOfPicksTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
